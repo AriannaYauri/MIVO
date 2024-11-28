@@ -1,0 +1,33 @@
+name: mivo_app
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.5.3 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  fl_chart: ^0.45.0
+  telephony: 0.2.0
+  sms_advanced: ^1.1.0 # Este es el paquete para recibir SMS
+  shared_preferences: ^2.1.0
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/farm.jpg
+    - assets/alerta.jpg
+    - assets/proteccion.jpg
+    - assets/plaga1.jpg
+    - assets/plaga2.jpg
